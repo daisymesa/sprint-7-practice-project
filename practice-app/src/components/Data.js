@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+const data = [
+  {
+    firstName: "Jim",
+    lastName: "Johnson",
+    favColorHex: "#BADA55",
+    likes: [
+      "dogs",
+      "pickles",
+      "trucks"
+    ]
+  }
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  {
+    firstName: "Daisy",
+    lastName: "Mesa",
+    favColorHex: "#FF7F50",
+    likes: [
+      "pugs",
+      "coffee",
+      "books"
+    ]
+  }
 
-export default App;
+  {
+    firstName: "David",
+    lastName: "Hernandez",
+    favColorHex: "#0000CD",
+    likes: [
+      "bulldogs",
+      "pizza",
+      "soccer"
+    ]
+  }
+]
+
+export default Data;
