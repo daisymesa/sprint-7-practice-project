@@ -13,6 +13,7 @@ const DataList = props => {
       })}
 
     </div>
+    
   );
 };
 
