@@ -1,7 +1,5 @@
 import React from 'react';
 
-//THIS FILE WILL BE THE MAIN CONTENT CONTAINER, AND IMPORT THE LEFT AND RIGHT SIDE CONTENT COMPONENTS
-
 const Content = props => {
   return (
     <div className="content-container">
@@ -11,7 +9,7 @@ const Content = props => {
       </div>
 
       <div className="left-page-content">
-
+      
       </div>
 
     </div>
