@@ -1,6 +1,6 @@
 import React from 'react';
 
-import LeftSideContent from './LeftSideContent';
+import Likes from './Likes';
 import RightSideConent from './RightSideContent';
 
 //THIS FILE WILL BE THE MAIN CONTENT CONTAINER, AND IMPORT THE LEFT AND RIGHT SIDE CONTENT COMPONENTS
@@ -14,7 +14,7 @@ const Content = props => {
       </div>
 
       <div className="left-page-content">
-        <LeftSideContent />
+        <Likes />
       </div>
 
       <div className="right-page-content">

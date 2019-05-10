@@ -8,7 +8,7 @@ const Content = props => {
         <h1>Lambda Friends</h1>
       </div>
 
-      <div className="left-page-content">
+      <div className="friend-card">
       
       </div>
 

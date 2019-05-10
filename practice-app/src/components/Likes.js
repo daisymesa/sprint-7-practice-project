@@ -1,41 +1,20 @@
-//THIS FILE WILL ONLY LIST THE DATA ARRAY FOR THE APP
+import React from 'react';
 
-const Data = [
-  {
-    item: 1,
-    firstName: "Jim",
-    lastName: "Johnson",
-    favColorHex: "#BADA55",
-    likes: [
-      "dogs",
-      "pickles",
-      "trucks"
-    ]
-  },
+import LeftSideContent from './LeftSideContent';
 
-  {
-    item: 2,
-    firstName: "Daisy",
-    lastName: "Mesa",
-    favColorHex: "#FF7F50",
-    likes: [
-      "pugs",
-      "coffee",
-      "books"
-    ]
-  },
+//THIS FILE WILL MAP THROUGH THE DATA ARRAY
 
-  {
-    item: 3,
-    firstName: "David",
-    lastName: "Hernandez",
-    favColorHex: "#0000CD",
-    likes: [
-      "bulldogs",
-      "pizza",
-      "soccer"
-    ]
-  }
-]
+const Likes = props => {
+  return (
+    <div className="content-container">
 
-export default Data;
+      {props.lambdaFriends.likes.map(item => {
+        return <LeftSideContent likeData={item} key={item.id} />;
+      })}
+
+    </div>
+    
+  );
+};
+
+export default Likes;
